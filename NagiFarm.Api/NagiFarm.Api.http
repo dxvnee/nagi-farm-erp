@@ -1,0 +1,6 @@
+@NagiFarm.Api_HostAddress = http://localhost:5269
+
+GET {{NagiFarm.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
