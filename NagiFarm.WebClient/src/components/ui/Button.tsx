@@ -16,7 +16,7 @@ export function Button({
     return (
         <button
             disabled={disabled || loading}
-            className={`inline-flex w-full items-center justify-center gap-2 rounded-xl bg-nagi-magenta px-4 py-2.5 text-sm font-semibold text-white shadow-sm shadow-nagi-magenta/25 transition hover:bg-nagi-magenta-dark active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60 ${className}`}
+            className={`inline-flex w-full items-center justify-center gap-2 rounded-xl bg-nagi-magenta px-4 py-2.5 cursor-pointer text-sm font-semibold text-white shadow-sm shadow-nagi-magenta/25 transition hover:bg-nagi-magenta-dark active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60 ${className}`}
             {...props}
         >
             {loading && (

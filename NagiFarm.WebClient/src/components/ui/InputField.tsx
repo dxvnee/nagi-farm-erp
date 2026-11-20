@@ -1,4 +1,5 @@
 import { InputHTMLAttributes, useState } from "react";
+import { Eye, EyeOff } from "lucide-react";
 
 interface InputFieldProps extends InputHTMLAttributes<HTMLInputElement> {
     label: string;
@@ -38,8 +39,7 @@ export function InputField({
                         onClick={() => setShowPassword((prev) => !prev)}
                         className="absolute right-3 top-1/2 -translate-y-1/2 text-xs font-medium text-zinc-500 hover:text-nagi-magenta"
                     >
-                        {showPassword ? "Sembunyi" : "Lihat"}
-                    </button>
+                        {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}                    </button>
                 )}
             </div>
         </div>
