@@ -8,11 +8,74 @@
 }
 
 @theme {
-  --color-nagi-magenta: #c81d62;
-  --color-nagi-magenta-dark: #a0144d;
-  --color-nagi-purple: #5b1448;
-  --color-nagi-leaf: #4d9e36;
-  --color-nagi-surface: #fdfafb;
+  /* =========================================================
+    1. NAGI MAGENTA
+     ========================================================= */
+  --color-nagi-magenta-950: #4c0520;
+  --color-nagi-magenta-900: #780d38;
+  --color-nagi-magenta-800: #8e1143;
+  --color-nagi-magenta-700: #a0144d; /* magenta-dark */
+  --color-nagi-magenta-600: #c81d62; /* base magenta */
+  --color-nagi-magenta-500: #e12d75;
+  --color-nagi-magenta-400: #f05a95;
+  --color-nagi-magenta-300: #f68db7;
+  --color-nagi-magenta-200: #fbc0d8;
+  --color-nagi-magenta-100: #fde2ed;
+  --color-nagi-magenta-50:  #fef2f7;
+
+  /* =========================================================
+    2. NAGI PURPLE
+     ========================================================= */
+  --color-nagi-purple-950: #330827;
+  --color-nagi-purple-900: #5b1448; /* base purple */
+  --color-nagi-purple-800: #701a59;
+  --color-nagi-purple-700: #8a236e;
+  --color-nagi-purple-600: #a63286;
+  --color-nagi-purple-500: #bf4da0;
+  --color-nagi-purple-400: #d474ba;
+  --color-nagi-purple-300: #e5a1d3;
+  --color-nagi-purple-200: #f2cbe8;
+  --color-nagi-purple-100: #f9e6f4;
+  --color-nagi-purple-50:  #fdf4fb;
+
+  /* =========================================================
+    3. NAGI LEAF
+     ========================================================= */
+  --color-nagi-leaf-950: #142e0e;
+  --color-nagi-leaf-900: #224b18;
+  --color-nagi-leaf-800: #2c611f;
+  --color-nagi-leaf-700: #3b7d29;
+  --color-nagi-leaf-600: #4d9e36; /* base leaf */
+  --color-nagi-leaf-500: #62b849;
+  --color-nagi-leaf-400: #85cf6e;
+  --color-nagi-leaf-300: #b0e39f;
+  --color-nagi-leaf-200: #d5f2cb;
+  --color-nagi-leaf-100: #eaf9e4;
+  --color-nagi-leaf-50:  #f5fcf2;
+
+  /* =========================================================
+    4. NAGI SURFACE
+     ========================================================= */
+  --color-nagi-surface-950: #1f171b;
+  --color-nagi-surface-900: #362930;
+  --color-nagi-surface-800: #4f3e47;
+  --color-nagi-surface-700: #6b5661;
+  --color-nagi-surface-600: #8a737f;
+  --color-nagi-surface-500: #a8939e;
+  --color-nagi-surface-400: #c7b6bf;
+  --color-nagi-surface-300: #dfd3d9;
+  --color-nagi-surface-200: #efe7eb;
+  --color-nagi-surface-100: #f8f2f5;
+  --color-nagi-surface-50:  #fdfafb; /* base surface */
+
+  /* =========================================================
+    5. ALIAS DEFAULT
+     ========================================================= */
+  --color-nagi-magenta: var(--color-nagi-magenta-600);
+  --color-nagi-magenta-dark: var(--color-nagi-magenta-700);
+  --color-nagi-purple: var(--color-nagi-purple-900);
+  --color-nagi-leaf: var(--color-nagi-leaf-600);
+  --color-nagi-surface: var(--color-nagi-surface-50);
 }
 
 @media (prefers-color-scheme: dark) {
