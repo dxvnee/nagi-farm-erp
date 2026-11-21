@@ -13,7 +13,7 @@ export function Sidebar() {
     const closeMobile = () => setMobileOpen(false);
 
     const renderContent = (isCollapsed: boolean) => (
-        <div className="flex h-full flex-col justify-between bg-white px-4 py-6">
+        <div className="border border-r-nagi-magenta-400 flex h-full flex-col justify-between overflow-hidden bg-white px-3 py-6">
             <div>
                 <SidebarBrand collapsed={collapsed} onNavigate={closeMobile} />
                 <SidebarNav collapsed={collapsed} isActive={isActive} onNavigate={closeMobile} />

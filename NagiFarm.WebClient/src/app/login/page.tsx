@@ -21,7 +21,7 @@ export default function LoginPage() {
                         />
                     </div>
 
-                    <Card className="space-y-1">
+                    <Card className="space-y-1 p-8">
                         <div className="space-y-1">
                             <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
                                 Selamat datang

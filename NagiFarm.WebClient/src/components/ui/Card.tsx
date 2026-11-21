@@ -1,14 +1,16 @@
+import { cn } from "@/lib/utlis";
+
 interface CardProps {
     children: React.ReactNode;
-    className: String
+    className?: string
 }
 
 export function Card({
     children,
-    className
+    className = ""
 }: CardProps) {
     return (
-        <div className={`${className} rounded-2xl border border-nagi-magenta bg-white p-8 shadow-sm`}>
+        <div className={cn("rounded-2xl border border-nagi-magenta-400 bg-white shadow-sm p-4", className)}>
             {children}
         </div>
     )
