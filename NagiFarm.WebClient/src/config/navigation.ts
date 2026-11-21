@@ -19,7 +19,7 @@ export interface NavItem {
 
 export const NAV_ITEMS: NavItem[] = [
     { label: "Dashboard", href: "/", icon: LayoutDashboard },
-    { label: "Panen & Stok", href: "/harvest", icon: Sprout },
+    { label: "Panen & Stok", href: "/panen", icon: Sprout },
     { label: "Penjualan", href: "/sales", icon: ShoppingBag },
     { label: "Pelanggan & Reseller", href: "/customers", icon: Users },
     { label: "Pengeluaran", href: "/expenses", icon: Wallet },
